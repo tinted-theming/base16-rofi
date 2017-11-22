@@ -12,7 +12,7 @@ curl https://raw.githubusercontent.com/0xdec/base16-rofi/master/themes/base16-de
 
 ### Base16-shell hook
 
-This repo also provides an hook to switch the rofi colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
+This repo also provides a hook to switch the rofi colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
 
 ```
 > export BASE16_SHELL_HOOKS=$HOME/.config/base16-shell/hooks
