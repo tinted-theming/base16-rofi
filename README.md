@@ -4,7 +4,9 @@ base16-rofi
 [Base16](https://github.com/chriskempson/base16) for [rofi](https://github.com/DaveDavenport/rofi)
 
 ### Installation
-Add the theme to your `~/.config/rofi/config`
+For Rofi >= 1.4.x copy the .rasi theme to `~/.local/share/rofi/themes/`.
+
+For Rofi < 1.4.x replace the configuration file `~/.config/rofi/config`
 ```sh
 mkdir ~/.config/rofi
 curl https://raw.githubusercontent.com/0xdec/base16-rofi/master/themes/base16-default-dark.config >> ~/.config/rofi/config
@@ -12,7 +14,7 @@ curl https://raw.githubusercontent.com/0xdec/base16-rofi/master/themes/base16-de
 
 ### Base16-shell hook
 
-This repo also provides a hook to switch the rofi colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
+For Rofi < 1.4.x this repo also provides a hook to switch the colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
 
 ```
 > export BASE16_SHELL_HOOKS=$HOME/.config/base16-shell/hooks

@@ -1,26 +1,26 @@
 /**
- * Base16 {{scheme-name}} ROFI Color theme
- * User: {{scheme-author}}
+ * Base16 Brush Trees Dark ROFI Color theme
+ * User: Abraham White &lt;abelincoln.white@gmail.com&gt;
  * Copyright: Andrea Scarpino
  */
 * {
     selected-normal-foreground:  @lightbg;
-    foreground:                  rgba ( {{base05-rgb-r}}, {{base05-rgb-g}}, {{base05-rgb-b}}, 100 % );
+    foreground:                  rgba ( 176, 197, 200, 100 % );
     normal-foreground:           @foreground;
     alternate-normal-background: @lightbg;
-    red:                         rgba ( {{base08-rgb-r}}, {{base08-rgb-g}}, {{base08-rgb-b}}, 100 % );
+    red:                         rgba ( 179, 134, 134, 100 % );
     selected-urgent-foreground:  @background;
-    blue:                        rgba ( {{base0D-rgb-r}}, {{base0D-rgb-g}}, {{base0D-rgb-b}}, 100 % );
+    blue:                        rgba ( 134, 140, 179, 100 % );
     urgent-foreground:           @red;
     alternate-urgent-background: @lightbg;
     active-foreground:           @blue;
-    lightbg:                     rgba ( {{base01-rgb-r}}, {{base01-rgb-g}}, {{base01-rgb-b}}, 100 % );
+    lightbg:                     rgba ( 90, 109, 122, 100 % );
     selected-active-foreground:  @background;
     alternate-active-background: @lightbg;
-    background:                  rgba ( {{base00-rgb-r}}, {{base00-rgb-g}}, {{base00-rgb-b}}, 100 % );
+    background:                  rgba ( 72, 88, 103, 100 % );
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
-    lightfg:                     rgba ( {{base06-rgb-r}}, {{base06-rgb-g}}, {{base06-rgb-b}}, 100 % );
+    lightfg:                     rgba ( 201, 219, 220, 100 % );
     selected-normal-background:  @lightfg;
     border-color:                @foreground;
     spacing:                     2;
@@ -28,7 +28,7 @@
     urgent-background:           @background;
     selected-urgent-background:  @red;
     alternate-urgent-foreground: @red;
-    background-color:            rgba ( {{base00-rgb-r}}, {{base00-rgb-g}}, {{base00-rgb-b}}, 0 % );
+    background-color:            rgba ( 72, 88, 103, 0 % );
     alternate-active-foreground: @blue;
     active-background:           @background;
     selected-active-background:  @blue;
