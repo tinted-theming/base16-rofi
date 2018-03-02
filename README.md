@@ -1,20 +1,27 @@
 base16-rofi
 ===========
 
-[Base16](https://github.com/chriskempson/base16) for [rofi](https://github.com/DaveDavenport/rofi)
+[Base16](https://github.com/chriskempson/base16) for [Rofi](https://github.com/DaveDavenport/rofi)
 
 ### Installation
-For Rofi >= 1.4.x copy the .rasi theme to `~/.local/share/rofi/themes/`.
 
-For Rofi < 1.4.x replace the configuration file `~/.config/rofi/config`
+Copy or link the desired base16-*.rasi theme files to `~/.local/share/rofi/themes/`.
 ```sh
-mkdir ~/.config/rofi
-curl https://raw.githubusercontent.com/0xdec/base16-rofi/master/themes/base16-default-dark.config >> ~/.config/rofi/config
+git clone https://github.com/0xdec/base16-rofi.git
+ln -s base16-rofi ~/.local/share/rofi/themes/
+rofi -theme base16-default-dark
 ```
 
-### Base16-shell hook
+For older Rofi versions (< 1.4), copy the desired base16-*.config theme file to `~/.config/rofi/config`.
+```sh
+git clone https://github.com/0xdec/base16-rofi.git
+mkdir ~/.config/rofi
+ln -s base16-rofi/themes/base16-default-dark.config >> ~/.config/rofi/config
+```
 
-For Rofi < 1.4.x this repo also provides a hook to switch the colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
+### Base16-Shell Hook
+
+For Rofi < 1.4 this repo also provides a hook to switch the colorscheme automatically when a base16_shell theme is set. The setup is pretty straightforward:
 
 ```
 > export BASE16_SHELL_HOOKS=$HOME/.config/base16-shell/hooks
@@ -23,5 +30,3 @@ For Rofi < 1.4.x this repo also provides a hook to switch the colorscheme automa
 ```
 
 Then set the `rofi_config_file` and `rofi_themes_dir` variables in the script.
-
-
