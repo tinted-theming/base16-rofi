@@ -1,26 +1,26 @@
 /**
- * Base16 Apathy ROFI Color theme
- * User: Jannik Siebert (https://github.com/janniks)
+ * Base16 Icy Dark ROFI Color theme
+ * User: icyphox (https://icyphox.ga)
  * Copyright: Andrea Scarpino
  */
 * {
     selected-normal-foreground:  @lightbg;
-    foreground:                  rgba ( 129, 181, 172, 100 % );
+    foreground:                  rgba ( 9, 91, 103, 100 % );
     normal-foreground:           @foreground;
     alternate-normal-background: @lightbg;
-    red:                         rgba ( 62, 150, 136, 100 % );
+    red:                         rgba ( 22, 193, 217, 100 % );
     selected-urgent-foreground:  @background;
-    blue:                        rgba ( 150, 136, 62, 100 % );
+    blue:                        rgba ( 0, 188, 212, 100 % );
     urgent-foreground:           @red;
     alternate-urgent-background: @lightbg;
     active-foreground:           @blue;
-    lightbg:                     rgba ( 11, 52, 45, 100 % );
+    lightbg:                     rgba ( 3, 22, 25, 100 % );
     selected-active-foreground:  @background;
     alternate-active-background: @lightbg;
-    background:                  rgba ( 3, 26, 22, 100 % );
+    background:                  rgba ( 2, 16, 18, 100 % );
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
-    lightfg:                     rgba ( 167, 206, 200, 100 % );
+    lightfg:                     rgba ( 12, 124, 140, 100 % );
     selected-normal-background:  @lightfg;
     border-color:                @foreground;
     spacing:                     2;
@@ -28,7 +28,7 @@
     urgent-background:           @background;
     selected-urgent-background:  @red;
     alternate-urgent-foreground: @red;
-    background-color:            rgba ( 3, 26, 22, 0 % );
+    background-color:            rgba ( 2, 16, 18, 0 % );
     alternate-active-foreground: @blue;
     active-background:           @background;
     selected-active-background:  @blue;
