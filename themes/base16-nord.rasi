@@ -1,37 +1,40 @@
 /**
  * Base16 Nord ROFI Color theme
- * User: arcticicestudio
- * Copyright: Andrea Scarpino
+ *
+ * Authors
+ *  Scheme: arcticicestudio
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
  */
+
 * {
-    selected-normal-foreground:  @lightbg;
-    foreground:                  rgba ( 229, 233, 240, 100 % );
-    normal-foreground:           @foreground;
-    alternate-normal-background: @lightbg;
     red:                         rgba ( 136, 192, 208, 100 % );
-    selected-urgent-foreground:  @background;
     blue:                        rgba ( 235, 203, 139, 100 % );
-    urgent-foreground:           @red;
-    alternate-urgent-background: @lightbg;
-    active-foreground:           @blue;
-    lightbg:                     rgba ( 59, 66, 82, 100 % );
-    selected-active-foreground:  @background;
-    alternate-active-background: @lightbg;
-    background:                  rgba ( 46, 52, 64, 100 % );
-    alternate-normal-foreground: @foreground;
-    normal-background:           @background;
     lightfg:                     rgba ( 236, 239, 244, 100 % );
-    selected-normal-background:  @lightfg;
-    border-color:                @foreground;
-    spacing:                     2;
-    separatorcolor:              @foreground;
-    urgent-background:           @background;
-    selected-urgent-background:  @red;
-    alternate-urgent-foreground: @red;
+    lightbg:                     rgba ( 59, 66, 82, 100 % );
+    foreground:                  rgba ( 229, 233, 240, 100 % );
+    background:                  rgba ( 46, 52, 64, 100 % );
     background-color:            rgba ( 46, 52, 64, 0 % );
-    alternate-active-foreground: @blue;
-    active-background:           @background;
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
     selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+    spacing:                     2;
 }
 window {
     background-color: @background;
@@ -39,28 +42,28 @@ window {
     padding:          5;
 }
 mainbox {
-    border:  0;
-    padding: 0;
+    border:           0;
+    padding:          0;
 }
 message {
-    border:       1px dash 0px 0px ;
-    border-color: @separatorcolor;
-    padding:      1px ;
+    border:           1px dash 0px 0px ;
+    border-color:     @separatorcolor;
+    padding:          1px ;
 }
 textbox {
-    text-color: @foreground;
+    text-color:       @foreground;
 }
 listview {
-    fixed-height: 0;
-    border:       2px dash 0px 0px ;
-    border-color: @separatorcolor;
-    spacing:      2px ;
-    scrollbar:    true;
-    padding:      2px 0px 0px ;
+    fixed-height:     0;
+    border:           2px dash 0px 0px ;
+    border-color:     @separatorcolor;
+    spacing:          2px ;
+    scrollbar:        true;
+    padding:          2px 0px 0px ;
 }
 element {
-    border:  0;
-    padding: 1px ;
+    border:           0;
+    padding:          1px ;
 }
 element normal.normal {
     background-color: @normal-background;
@@ -99,45 +102,45 @@ element alternate.active {
     text-color:       @alternate-active-foreground;
 }
 scrollbar {
-    width:        4px ;
-    border:       0;
-    handle-color: @normal-foreground;
-    handle-width: 8px ;
-    padding:      0;
+    width:            4px ;
+    border:           0;
+    handle-color:     @normal-foreground;
+    handle-width:     8px ;
+    padding:          0;
 }
 sidebar {
-    border:       2px dash 0px 0px ;
-    border-color: @separatorcolor;
+    border:           2px dash 0px 0px ;
+    border-color:     @separatorcolor;
 }
 button {
-    spacing:    0;
-    text-color: @normal-foreground;
+    spacing:          0;
+    text-color:       @normal-foreground;
 }
 button selected {
     background-color: @selected-normal-background;
     text-color:       @selected-normal-foreground;
 }
 inputbar {
-    spacing:    0px;
-    text-color: @normal-foreground;
-    padding:    1px ;
-    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    spacing:          0px;
+    text-color:       @normal-foreground;
+    padding:          1px ;
+    children:         [ prompt,textbox-prompt-colon,entry,case-indicator ];
 }
 case-indicator {
-    spacing:    0;
-    text-color: @normal-foreground;
+    spacing:          0;
+    text-color:       @normal-foreground;
 }
 entry {
-    spacing:    0;
-    text-color: @normal-foreground;
+    spacing:          0;
+    text-color:       @normal-foreground;
 }
 prompt {
-    spacing:    0;
-    text-color: @normal-foreground;
+    spacing:          0;
+    text-color:       @normal-foreground;
 }
 textbox-prompt-colon {
-    expand:     false;
-    str:        ":";
-    margin:     0px 0.3000em 0.0000em 0.0000em ;
-    text-color: inherit;
+    expand:           false;
+    str:              ":";
+    margin:           0px 0.3000em 0.0000em 0.0000em ;
+    text-color:       inherit;
 }
