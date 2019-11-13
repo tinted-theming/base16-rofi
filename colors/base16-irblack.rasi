@@ -1,0 +1,37 @@
+/**
+ * Base16 IR Black ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Timothée Poisot (http://timotheepoisot.fr)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 255, 108, 96, 100 % );
+    blue:                        rgba ( 150, 203, 254, 100 % );
+    lightfg:                     rgba ( 217, 215, 204, 100 % );
+    lightbg:                     rgba ( 36, 36, 34, 100 % );
+    foreground:                  rgba ( 181, 179, 170, 100 % );
+    background:                  rgba ( 0, 0, 0, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

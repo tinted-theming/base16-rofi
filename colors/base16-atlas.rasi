@@ -1,0 +1,37 @@
+/**
+ * Base16 Atlas ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Alex Lende (https://ajlende.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 255, 90, 103, 100 % );
+    blue:                        rgba ( 93, 215, 185, 100 % );
+    lightfg:                     rgba ( 230, 230, 220, 100 % );
+    lightbg:                     rgba ( 0, 56, 77, 100 % );
+    foreground:                  rgba ( 161, 161, 154, 100 % );
+    background:                  rgba ( 0, 38, 53, 100 % );
+    background-color:            rgba ( 0, 38, 53, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

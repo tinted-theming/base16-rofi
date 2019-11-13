@@ -1,0 +1,37 @@
+/**
+ * Base16 Fruit Soda ROFI Color theme
+ *
+ * Authors
+ *  Scheme: jozip
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 254, 62, 49, 100 % );
+    blue:                        rgba ( 41, 49, 223, 100 % );
+    lightfg:                     rgba ( 71, 69, 69, 100 % );
+    lightbg:                     rgba ( 224, 222, 224, 100 % );
+    foreground:                  rgba ( 81, 81, 81, 100 % );
+    background:                  rgba ( 241, 236, 241, 100 % );
+    background-color:            rgba ( 241, 236, 241, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

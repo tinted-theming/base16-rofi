@@ -1,0 +1,37 @@
+/**
+ * Base16 Shapeshifter ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Tyler Benziger (http://tybenz.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 233, 47, 47, 100 % );
+    blue:                        rgba ( 59, 72, 227, 100 % );
+    lightfg:                     rgba ( 4, 4, 4, 100 % );
+    lightbg:                     rgba ( 224, 224, 224, 100 % );
+    foreground:                  rgba ( 16, 32, 21, 100 % );
+    background:                  rgba ( 249, 249, 249, 100 % );
+    background-color:            rgba ( 249, 249, 249, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

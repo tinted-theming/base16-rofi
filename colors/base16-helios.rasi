@@ -1,0 +1,37 @@
+/**
+ * Base16 Helios ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Alex Meyer (https://github.com/reyemxela)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 215, 38, 56, 100 % );
+    blue:                        rgba ( 30, 139, 172, 100 % );
+    lightfg:                     rgba ( 221, 221, 221, 100 % );
+    lightbg:                     rgba ( 56, 60, 62, 100 % );
+    foreground:                  rgba ( 213, 213, 213, 100 % );
+    background:                  rgba ( 29, 32, 33, 100 % );
+    background-color:            rgba ( 29, 32, 33, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

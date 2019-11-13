@@ -1,0 +1,37 @@
+/**
+ * Base16 Apathy ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jannik Siebert (https://github.com/janniks)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 62, 150, 136, 100 % );
+    blue:                        rgba ( 150, 136, 62, 100 % );
+    lightfg:                     rgba ( 167, 206, 200, 100 % );
+    lightbg:                     rgba ( 11, 52, 45, 100 % );
+    foreground:                  rgba ( 129, 181, 172, 100 % );
+    background:                  rgba ( 3, 26, 22, 100 % );
+    background-color:            rgba ( 3, 26, 22, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

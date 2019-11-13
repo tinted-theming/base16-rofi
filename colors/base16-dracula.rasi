@@ -1,0 +1,37 @@
+/**
+ * Base16 Dracula ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 234, 81, 178, 100 % );
+    blue:                        rgba ( 98, 214, 232, 100 % );
+    lightfg:                     rgba ( 241, 242, 248, 100 % );
+    lightbg:                     rgba ( 58, 60, 78, 100 % );
+    foreground:                  rgba ( 233, 233, 244, 100 % );
+    background:                  rgba ( 40, 41, 54, 100 % );
+    background-color:            rgba ( 40, 41, 54, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

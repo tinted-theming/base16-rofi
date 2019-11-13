@@ -1,0 +1,37 @@
+/**
+ * Base16 Horizon Dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Michaël Ball (http://github.com/michael-ball/)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 233, 60, 88, 100 % );
+    blue:                        rgba ( 223, 82, 115, 100 % );
+    lightfg:                     rgba ( 220, 223, 228, 100 % );
+    lightbg:                     rgba ( 35, 37, 48, 100 % );
+    foreground:                  rgba ( 203, 206, 208, 100 % );
+    background:                  rgba ( 28, 30, 38, 100 % );
+    background-color:            rgba ( 28, 30, 38, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

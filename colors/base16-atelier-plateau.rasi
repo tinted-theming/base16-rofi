@@ -1,0 +1,37 @@
+/**
+ * Base16 Atelier Plateau ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 202, 73, 73, 100 % );
+    blue:                        rgba ( 114, 114, 202, 100 % );
+    lightfg:                     rgba ( 231, 223, 223, 100 % );
+    lightbg:                     rgba ( 41, 36, 36, 100 % );
+    foreground:                  rgba ( 138, 133, 133, 100 % );
+    background:                  rgba ( 27, 24, 24, 100 % );
+    background-color:            rgba ( 27, 24, 24, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

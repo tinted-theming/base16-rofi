@@ -1,0 +1,37 @@
+/**
+ * Base16 Atelier Heath Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 202, 64, 43, 100 % );
+    blue:                        rgba ( 81, 106, 236, 100 % );
+    lightfg:                     rgba ( 41, 35, 41, 100 % );
+    lightbg:                     rgba ( 216, 202, 216, 100 % );
+    foreground:                  rgba ( 105, 93, 105, 100 % );
+    background:                  rgba ( 247, 243, 247, 100 % );
+    background-color:            rgba ( 247, 243, 247, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

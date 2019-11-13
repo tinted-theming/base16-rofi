@@ -1,0 +1,37 @@
+/**
+ * Base16 Nord ROFI Color theme
+ *
+ * Authors
+ *  Scheme: arcticicestudio
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 136, 192, 208, 100 % );
+    blue:                        rgba ( 235, 203, 139, 100 % );
+    lightfg:                     rgba ( 236, 239, 244, 100 % );
+    lightbg:                     rgba ( 59, 66, 82, 100 % );
+    foreground:                  rgba ( 229, 233, 240, 100 % );
+    background:                  rgba ( 46, 52, 64, 100 % );
+    background-color:            rgba ( 46, 52, 64, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

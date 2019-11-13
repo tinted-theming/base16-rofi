@@ -1,0 +1,37 @@
+/**
+ * Base16 Spacemacs ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 242, 36, 31, 100 % );
+    blue:                        rgba ( 79, 151, 215, 100 % );
+    lightfg:                     rgba ( 232, 232, 232, 100 % );
+    lightbg:                     rgba ( 40, 40, 40, 100 % );
+    foreground:                  rgba ( 163, 163, 163, 100 % );
+    background:                  rgba ( 31, 32, 34, 100 % );
+    background-color:            rgba ( 31, 32, 34, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

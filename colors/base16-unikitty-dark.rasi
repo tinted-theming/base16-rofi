@@ -1,0 +1,37 @@
+/**
+ * Base16 Unikitty Dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Josh W Lewis (@joshwlewis)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 216, 19, 127, 100 % );
+    blue:                        rgba ( 121, 106, 245, 100 % );
+    lightfg:                     rgba ( 216, 215, 218, 100 % );
+    lightbg:                     rgba ( 74, 70, 77, 100 % );
+    foreground:                  rgba ( 188, 186, 190, 100 % );
+    background:                  rgba ( 46, 42, 49, 100 % );
+    background-color:            rgba ( 46, 42, 49, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

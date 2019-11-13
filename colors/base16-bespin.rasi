@@ -1,0 +1,37 @@
+/**
+ * Base16 Bespin ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jan T. Sott
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 207, 106, 76, 100 % );
+    blue:                        rgba ( 94, 166, 234, 100 % );
+    lightfg:                     rgba ( 157, 155, 151, 100 % );
+    lightbg:                     rgba ( 54, 49, 46, 100 % );
+    foreground:                  rgba ( 138, 137, 134, 100 % );
+    background:                  rgba ( 40, 33, 28, 100 % );
+    background-color:            rgba ( 40, 33, 28, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

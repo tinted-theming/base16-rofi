@@ -1,0 +1,37 @@
+/**
+ * Base16 Brogrammer ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Vik Ramanujam (http://github.com/piggyslasher)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 214, 219, 229, 100 % );
+    blue:                        rgba ( 83, 80, 185, 100 % );
+    lightfg:                     rgba ( 16, 129, 214, 100 % );
+    lightbg:                     rgba ( 248, 17, 24, 100 % );
+    foreground:                  rgba ( 78, 90, 183, 100 % );
+    background:                  rgba ( 31, 31, 31, 100 % );
+    background-color:            rgba ( 31, 31, 31, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
