@@ -1,0 +1,37 @@
+/**
+ * Base16 Bright ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Chris Kempson (http://chriskempson.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 251, 1, 32, 100 % );
+    blue:                        rgba ( 111, 179, 210, 100 % );
+    lightfg:                     rgba ( 245, 245, 245, 100 % );
+    lightbg:                     rgba ( 48, 48, 48, 100 % );
+    foreground:                  rgba ( 224, 224, 224, 100 % );
+    background:                  rgba ( 0, 0, 0, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

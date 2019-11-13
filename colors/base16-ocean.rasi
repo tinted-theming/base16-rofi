@@ -1,0 +1,37 @@
+/**
+ * Base16 Ocean ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Chris Kempson (http://chriskempson.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 191, 97, 106, 100 % );
+    blue:                        rgba ( 143, 161, 179, 100 % );
+    lightfg:                     rgba ( 223, 225, 232, 100 % );
+    lightbg:                     rgba ( 52, 61, 70, 100 % );
+    foreground:                  rgba ( 192, 197, 206, 100 % );
+    background:                  rgba ( 43, 48, 59, 100 % );
+    background-color:            rgba ( 43, 48, 59, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

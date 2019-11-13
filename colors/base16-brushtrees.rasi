@@ -1,0 +1,37 @@
+/**
+ * Base16 Brush Trees ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Abraham White &lt;abelincoln.white@gmail.com&gt;
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 179, 134, 134, 100 % );
+    blue:                        rgba ( 134, 140, 179, 100 % );
+    lightfg:                     rgba ( 90, 109, 122, 100 % );
+    lightbg:                     rgba ( 201, 219, 220, 100 % );
+    foreground:                  rgba ( 109, 130, 142, 100 % );
+    background:                  rgba ( 227, 239, 239, 100 % );
+    background-color:            rgba ( 227, 239, 239, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

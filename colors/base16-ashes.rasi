@@ -1,0 +1,37 @@
+/**
+ * Base16 Ashes ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jannik Siebert (https://github.com/janniks)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 199, 174, 149, 100 % );
+    blue:                        rgba ( 174, 149, 199, 100 % );
+    lightfg:                     rgba ( 223, 226, 229, 100 % );
+    lightbg:                     rgba ( 57, 63, 69, 100 % );
+    foreground:                  rgba ( 199, 204, 209, 100 % );
+    background:                  rgba ( 28, 32, 35, 100 % );
+    background-color:            rgba ( 28, 32, 35, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

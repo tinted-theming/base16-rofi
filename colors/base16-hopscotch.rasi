@@ -1,0 +1,37 @@
+/**
+ * Base16 Hopscotch ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jan T. Sott
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 221, 70, 76, 100 % );
+    blue:                        rgba ( 18, 144, 191, 100 % );
+    lightfg:                     rgba ( 213, 211, 213, 100 % );
+    lightbg:                     rgba ( 67, 59, 66, 100 % );
+    foreground:                  rgba ( 185, 181, 184, 100 % );
+    background:                  rgba ( 50, 41, 49, 100 % );
+    background-color:            rgba ( 50, 41, 49, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

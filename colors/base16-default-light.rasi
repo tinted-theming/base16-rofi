@@ -1,0 +1,37 @@
+/**
+ * Base16 Default Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Chris Kempson (http://chriskempson.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 171, 70, 66, 100 % );
+    blue:                        rgba ( 124, 175, 194, 100 % );
+    lightfg:                     rgba ( 40, 40, 40, 100 % );
+    lightbg:                     rgba ( 232, 232, 232, 100 % );
+    foreground:                  rgba ( 56, 56, 56, 100 % );
+    background:                  rgba ( 248, 248, 248, 100 % );
+    background-color:            rgba ( 248, 248, 248, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Solarized Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Ethan Schoonover (modified by aramisgithub)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 220, 50, 47, 100 % );
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    lightfg:                     rgba ( 7, 54, 66, 100 % );
+    lightbg:                     rgba ( 238, 232, 213, 100 % );
+    foreground:                  rgba ( 88, 110, 117, 100 % );
+    background:                  rgba ( 253, 246, 227, 100 % );
+    background-color:            rgba ( 253, 246, 227, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

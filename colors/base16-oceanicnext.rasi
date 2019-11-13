@@ -1,0 +1,37 @@
+/**
+ * Base16 OceanicNext ROFI Color theme
+ *
+ * Authors
+ *  Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 236, 95, 103, 100 % );
+    blue:                        rgba ( 102, 153, 204, 100 % );
+    lightfg:                     rgba ( 205, 211, 222, 100 % );
+    lightbg:                     rgba ( 52, 61, 70, 100 % );
+    foreground:                  rgba ( 192, 197, 206, 100 % );
+    background:                  rgba ( 27, 43, 52, 100 % );
+    background-color:            rgba ( 27, 43, 52, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Sandcastle ROFI Color theme
+ *
+ * Authors
+ *  Scheme: George Essig (https://github.com/gessig)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 131, 165, 152, 100 % );
+    blue:                        rgba ( 131, 165, 152, 100 % );
+    lightfg:                     rgba ( 213, 196, 161, 100 % );
+    lightbg:                     rgba ( 44, 50, 59, 100 % );
+    foreground:                  rgba ( 168, 153, 132, 100 % );
+    background:                  rgba ( 40, 44, 52, 100 % );
+    background-color:            rgba ( 40, 44, 52, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Grayscale Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Alexandre Gavioli (https://github.com/Alexx2/)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 124, 124, 124, 100 % );
+    blue:                        rgba ( 104, 104, 104, 100 % );
+    lightfg:                     rgba ( 37, 37, 37, 100 % );
+    lightbg:                     rgba ( 227, 227, 227, 100 % );
+    foreground:                  rgba ( 70, 70, 70, 100 % );
+    background:                  rgba ( 247, 247, 247, 100 % );
+    background-color:            rgba ( 247, 247, 247, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

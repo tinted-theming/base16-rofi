@@ -1,0 +1,37 @@
+/**
+ * Base16 Eighties ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Chris Kempson (http://chriskempson.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 242, 119, 122, 100 % );
+    blue:                        rgba ( 102, 153, 204, 100 % );
+    lightfg:                     rgba ( 232, 230, 223, 100 % );
+    lightbg:                     rgba ( 57, 57, 57, 100 % );
+    foreground:                  rgba ( 211, 208, 200, 100 % );
+    background:                  rgba ( 45, 45, 45, 100 % );
+    background-color:            rgba ( 45, 45, 45, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

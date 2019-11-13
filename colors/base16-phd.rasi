@@ -1,0 +1,37 @@
+/**
+ * Base16 PhD ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Hennig Hasemann (http://leetless.de/vim.html)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 208, 115, 70, 100 % );
+    blue:                        rgba ( 82, 153, 191, 100 % );
+    lightfg:                     rgba ( 219, 221, 224, 100 % );
+    lightbg:                     rgba ( 42, 52, 72, 100 % );
+    foreground:                  rgba ( 184, 187, 194, 100 % );
+    background:                  rgba ( 6, 18, 41, 100 % );
+    background-color:            rgba ( 6, 18, 41, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

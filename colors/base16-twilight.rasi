@@ -1,0 +1,37 @@
+/**
+ * Base16 Twilight ROFI Color theme
+ *
+ * Authors
+ *  Scheme: David Hart (https://github.com/hartbit)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 207, 106, 76, 100 % );
+    blue:                        rgba ( 117, 135, 166, 100 % );
+    lightfg:                     rgba ( 195, 195, 195, 100 % );
+    lightbg:                     rgba ( 50, 53, 55, 100 % );
+    foreground:                  rgba ( 167, 167, 167, 100 % );
+    background:                  rgba ( 30, 30, 30, 100 % );
+    background-color:            rgba ( 30, 30, 30, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

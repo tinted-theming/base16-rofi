@@ -1,0 +1,37 @@
+/**
+ * Base16 Marrakesh ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Alexandre Gavioli (http://github.com/Alexx2/)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 195, 83, 89, 100 % );
+    blue:                        rgba ( 71, 124, 161, 100 % );
+    lightfg:                     rgba ( 204, 195, 122, 100 % );
+    lightbg:                     rgba ( 48, 46, 0, 100 % );
+    foreground:                  rgba ( 148, 142, 72, 100 % );
+    background:                  rgba ( 32, 22, 2, 100 % );
+    background-color:            rgba ( 32, 22, 2, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

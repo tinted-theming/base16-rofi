@@ -1,0 +1,37 @@
+/**
+ * Base16 3024 ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jan T. Sott (http://github.com/idleberg)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 219, 45, 32, 100 % );
+    blue:                        rgba ( 1, 160, 228, 100 % );
+    lightfg:                     rgba ( 214, 213, 212, 100 % );
+    lightbg:                     rgba ( 58, 52, 50, 100 % );
+    foreground:                  rgba ( 165, 162, 162, 100 % );
+    background:                  rgba ( 9, 3, 0, 100 % );
+    background-color:            rgba ( 9, 3, 0, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

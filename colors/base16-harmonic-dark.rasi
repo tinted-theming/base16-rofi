@@ -1,0 +1,37 @@
+/**
+ * Base16 Harmonic16 Dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jannik Siebert (https://github.com/janniks)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 191, 139, 86, 100 % );
+    blue:                        rgba ( 139, 86, 191, 100 % );
+    lightfg:                     rgba ( 229, 235, 241, 100 % );
+    lightbg:                     rgba ( 34, 59, 84, 100 % );
+    foreground:                  rgba ( 203, 214, 226, 100 % );
+    background:                  rgba ( 11, 28, 44, 100 % );
+    background-color:            rgba ( 11, 28, 44, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

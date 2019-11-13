@@ -1,0 +1,37 @@
+/**
+ * Base16 Atelier Seaside Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 230, 25, 60, 100 % );
+    blue:                        rgba ( 61, 98, 245, 100 % );
+    lightfg:                     rgba ( 36, 41, 36, 100 % );
+    lightbg:                     rgba ( 207, 232, 207, 100 % );
+    foreground:                  rgba ( 94, 110, 94, 100 % );
+    background:                  rgba ( 244, 251, 244, 100 % );
+    background-color:            rgba ( 244, 251, 244, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Atelier Lakeside ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 210, 45, 114, 100 % );
+    blue:                        rgba ( 37, 127, 173, 100 % );
+    lightfg:                     rgba ( 193, 228, 246, 100 % );
+    lightbg:                     rgba ( 31, 41, 46, 100 % );
+    foreground:                  rgba ( 126, 162, 180, 100 % );
+    background:                  rgba ( 22, 27, 29, 100 % );
+    background-color:            rgba ( 22, 27, 29, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

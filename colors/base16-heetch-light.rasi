@@ -1,0 +1,37 @@
+/**
+ * Base16 Heetch Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Geoffrey Teale (tealeg@gmail.com)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 39, 217, 213, 100 % );
+    blue:                        rgba ( 71, 249, 245, 100 % );
+    lightfg:                     rgba ( 71, 5, 70, 100 % );
+    lightbg:                     rgba ( 57, 37, 81, 100 % );
+    foreground:                  rgba ( 90, 73, 110, 100 % );
+    background:                  rgba ( 254, 255, 255, 100 % );
+    background-color:            rgba ( 254, 255, 255, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
