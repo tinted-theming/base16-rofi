@@ -4,7 +4,7 @@ default:
 
 colors:
     extension: .rasi
-    output: themes
+    output: colors
 
 old:
     extension: .config
