@@ -1,0 +1,37 @@
+/**
+ * Base16 tender ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 244, 55, 83, 100 % );
+    blue:                        rgba ( 179, 222, 239, 100 % );
+    lightfg:                     rgba ( 232, 232, 232, 100 % );
+    lightbg:                     rgba ( 56, 56, 56, 100 % );
+    foreground:                  rgba ( 238, 238, 238, 100 % );
+    background:                  rgba ( 40, 40, 40, 100 % );
+    background-color:            rgba ( 40, 40, 40, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,5 +1,5 @@
 /**
- * Base16 Synth Midnight Dark ROFI Color theme
+ * Base16 Synth Midnight Terminal Dark ROFI Color theme
  *
  * Authors
  *  Scheme: Michaël Ball (http://github.com/michael-ball/)
@@ -9,11 +9,11 @@
 * {
     red:                         rgba ( 181, 59, 80, 100 % );
     blue:                        rgba ( 3, 174, 255, 100 % );
-    lightfg:                     rgba ( 239, 235, 239, 100 % );
-    lightbg:                     rgba ( 20, 20, 20, 100 % );
-    foreground:                  rgba ( 223, 219, 223, 100 % );
-    background:                  rgba ( 4, 4, 4, 100 % );
-    background-color:            rgba ( 4, 4, 4, 0 % );
+    lightfg:                     rgba ( 207, 209, 210, 100 % );
+    lightbg:                     rgba ( 26, 27, 28, 100 % );
+    foreground:                  rgba ( 193, 195, 196, 100 % );
+    background:                  rgba ( 5, 6, 8, 100 % );
+    background-color:            rgba ( 5, 6, 8, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
@@ -60,6 +60,10 @@ listview {
     spacing:          2px ;
     scrollbar:        true;
     padding:          2px 0px 0px ;
+}
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
 }
 element {
     border:           0;

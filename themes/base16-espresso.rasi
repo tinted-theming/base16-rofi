@@ -2,7 +2,7 @@
  * Base16 Espresso ROFI Color theme
  *
  * Authors
- *  Scheme: Alex Mirrington (https://github.com/alexmirrington)
+ *  Scheme: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
  *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
  */
 
@@ -60,6 +60,10 @@ listview {
     spacing:          2px ;
     scrollbar:        true;
     padding:          2px 0px 0px ;
+}
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
 }
 element {
     border:           0;
