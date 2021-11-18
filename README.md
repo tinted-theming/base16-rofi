@@ -7,14 +7,14 @@ base16-rofi
 
 Copy or link the desired base16-*.rasi theme files to `~/.local/share/rofi/themes/`.
 ```sh
-git clone https://github.com/0xdec/base16-rofi.git
+git clone https://github.com/jordiorlando/base16-rofi.git
 ln -s base16-rofi ~/.local/share/rofi/themes/
 rofi -theme base16-default-dark
 ```
 
 For older Rofi versions (< 1.4), copy the desired base16-*.config theme file to `~/.config/rofi/config`.
 ```sh
-git clone https://github.com/0xdec/base16-rofi.git
+git clone https://github.com/jordiorlando/base16-rofi.git
 mkdir ~/.config/rofi
 ln -s base16-rofi/themes/base16-default-dark.config >> ~/.config/rofi/config
 ```
