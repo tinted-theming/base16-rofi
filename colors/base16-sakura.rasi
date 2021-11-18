@@ -1,0 +1,37 @@
+/**
+ * Base16 Sakura ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Misterio77 (http://github.com/Misterio77)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 223, 45, 82, 100 % );
+    blue:                        rgba ( 0, 110, 147, 100 % );
+    lightfg:                     rgba ( 66, 56, 58, 100 % );
+    lightbg:                     rgba ( 248, 226, 231, 100 % );
+    foreground:                  rgba ( 86, 68, 72, 100 % );
+    background:                  rgba ( 254, 237, 243, 100 % );
+    background-color:            rgba ( 254, 237, 243, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 vulcan ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Andrey Varfolomeev
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 129, 133, 145, 100 % );
+    blue:                        rgba ( 151, 125, 124, 100 % );
+    lightfg:                     rgba ( 51, 50, 56, 100 % );
+    lightbg:                     rgba ( 18, 35, 57, 100 % );
+    foreground:                  rgba ( 91, 119, 140, 100 % );
+    background:                  rgba ( 4, 21, 35, 100 % );
+    background-color:            rgba ( 4, 21, 35, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

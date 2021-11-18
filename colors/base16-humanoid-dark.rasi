@@ -1,0 +1,37 @@
+/**
+ * Base16 Humanoid dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Thomas (tasmo) Friese
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 241, 18, 53, 100 % );
+    blue:                        rgba ( 0, 166, 251, 100 % );
+    lightfg:                     rgba ( 252, 252, 246, 100 % );
+    lightbg:                     rgba ( 51, 59, 61, 100 % );
+    foreground:                  rgba ( 248, 248, 242, 100 % );
+    background:                  rgba ( 35, 38, 41, 100 % );
+    background-color:            rgba ( 35, 38, 41, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

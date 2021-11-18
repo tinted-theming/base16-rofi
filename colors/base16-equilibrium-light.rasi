@@ -1,0 +1,37 @@
+/**
+ * Base16 Equilibrium Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Carlo Abelli
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 208, 32, 35, 100 % );
+    blue:                        rgba ( 0, 115, 181, 100 % );
+    lightfg:                     rgba ( 44, 49, 56, 100 % );
+    lightbg:                     rgba ( 231, 226, 217, 100 % );
+    foreground:                  rgba ( 67, 71, 78, 100 % );
+    background:                  rgba ( 245, 240, 231, 100 % );
+    background-color:            rgba ( 245, 240, 231, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

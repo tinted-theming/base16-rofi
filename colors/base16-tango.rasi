@@ -1,0 +1,37 @@
+/**
+ * Base16 Tango ROFI Color theme
+ *
+ * Authors
+ *  Scheme: @Schnouki, based on the Tango Desktop Project
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 204, 0, 0, 100 % );
+    blue:                        rgba ( 52, 101, 164, 100 % );
+    lightfg:                     rgba ( 173, 127, 168, 100 % );
+    lightbg:                     rgba ( 138, 226, 52, 100 % );
+    foreground:                  rgba ( 211, 215, 207, 100 % );
+    background:                  rgba ( 46, 52, 54, 100 % );
+    background-color:            rgba ( 46, 52, 54, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

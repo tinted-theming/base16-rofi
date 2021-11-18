@@ -1,0 +1,37 @@
+/**
+ * Base16 Kimber ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Mishka Nguyen (https://github.com/akhsiM)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 200, 140, 140, 100 % );
+    blue:                        rgba ( 83, 124, 156, 100 % );
+    lightfg:                     rgba ( 195, 195, 180, 100 % );
+    lightbg:                     rgba ( 49, 49, 49, 100 % );
+    foreground:                  rgba ( 222, 222, 231, 100 % );
+    background:                  rgba ( 34, 34, 34, 100 % );
+    background-color:            rgba ( 34, 34, 34, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

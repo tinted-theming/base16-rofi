@@ -1,0 +1,37 @@
+/**
+ * Base16 Synth Midnight Terminal Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Michaël Ball (http://github.com/michael-ball/)
+ *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ */
+
+* {
+    red:                         rgba ( 181, 59, 80, 100 % );
+    blue:                        rgba ( 3, 174, 255, 100 % );
+    lightfg:                     rgba ( 26, 27, 28, 100 % );
+    lightbg:                     rgba ( 207, 209, 210, 100 % );
+    foreground:                  rgba ( 40, 41, 42, 100 % );
+    background:                  rgba ( 221, 223, 224, 100 % );
+    background-color:            rgba ( 221, 223, 224, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
