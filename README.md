@@ -1,13 +1,13 @@
 base16-rofi
 ===========
 
-[Base16](https://github.com/chriskempson/base16) for [Rofi](https://github.com/DaveDavenport/rofi)
+[Base16](https://github.com/tinted-theming/home) for [Rofi](https://github.com/DaveDavenport/rofi)
 
 ### Installation
 
 Copy or link the desired base16-*.rasi theme files to `~/.local/share/rofi/themes/`.
 ```sh
-git clone https://github.com/jordiorlando/base16-rofi.git
+git clone https://github.com/tinted-theming/base16-rofi.git
 ln -s base16-rofi ~/.local/share/rofi/themes/
 rofi -theme base16-default-dark
 ```
