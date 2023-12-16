@@ -1,0 +1,37 @@
+/**
+ * Base16 Tokyo City Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Michaël Ball
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 140, 67, 81, 100 % );
+    blue:                        rgba ( 52, 84, 138, 100 % );
+    lightfg:                     rgba ( 29, 37, 44, 100 % );
+    lightbg:                     rgba ( 246, 246, 248, 100 % );
+    foreground:                  rgba ( 52, 59, 89, 100 % );
+    background:                  rgba ( 251, 251, 253, 100 % );
+    background-color:            rgba ( 251, 251, 253, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

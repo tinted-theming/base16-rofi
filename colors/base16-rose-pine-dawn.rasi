@@ -2,14 +2,14 @@
  * Base16 Rosé Pine Dawn ROFI Color theme
  *
  * Authors
- *  Scheme: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
- *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ *  Scheme: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 31, 29, 46, 100 % );
-    blue:                        rgba ( 86, 148, 159, 100 % );
-    lightfg:                     rgba ( 85, 81, 105, 100 % );
+    red:                         rgba ( 180, 99, 122, 100 % );
+    blue:                        rgba ( 144, 122, 169, 100 % );
+    lightfg:                     rgba ( 87, 82, 121, 100 % );
     lightbg:                     rgba ( 255, 250, 243, 100 % );
     foreground:                  rgba ( 87, 82, 121, 100 % );
     background:                  rgba ( 250, 244, 237, 100 % );

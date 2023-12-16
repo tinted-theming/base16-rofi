@@ -1,0 +1,37 @@
+/**
+ * Base16 Everforest ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Sainnhe Park (https://github.com/sainnhe)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 127, 187, 179, 100 % );
+    blue:                        rgba ( 167, 192, 128, 100 % );
+    lightfg:                     rgba ( 228, 225, 205, 100 % );
+    lightbg:                     rgba ( 55, 66, 71, 100 % );
+    foreground:                  rgba ( 211, 198, 170, 100 % );
+    background:                  rgba ( 47, 56, 62, 100 % );
+    background-color:            rgba ( 47, 56, 62, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

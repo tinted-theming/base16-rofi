@@ -1,0 +1,37 @@
+/**
+ * Base16 Ayu Mirage ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 242, 135, 121, 100 % );
+    blue:                        rgba ( 92, 207, 230, 100 % );
+    lightfg:                     rgba ( 217, 215, 206, 100 % );
+    lightbg:                     rgba ( 31, 36, 48, 100 % );
+    foreground:                  rgba ( 204, 202, 194, 100 % );
+    background:                  rgba ( 23, 27, 36, 100 % );
+    background-color:            rgba ( 23, 27, 36, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Oxocarbon Dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: shaunsingh/IBM
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 61, 219, 217, 100 % );
+    blue:                        rgba ( 66, 190, 101, 100 % );
+    lightfg:                     rgba ( 255, 255, 255, 100 % );
+    lightbg:                     rgba ( 38, 38, 38, 100 % );
+    foreground:                  rgba ( 242, 244, 248, 100 % );
+    background:                  rgba ( 22, 22, 22, 100 % );
+    background-color:            rgba ( 22, 22, 22, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

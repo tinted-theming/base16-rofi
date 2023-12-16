@@ -1,9 +1,9 @@
 /**
- * Base16 Horizon Light ROFI Color theme
+ * Base16 Horizon Terminal Light ROFI Color theme
  *
  * Authors
  *  Scheme: Michaël Ball (http://github.com/michael-ball/)
- *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {

@@ -1,0 +1,37 @@
+/**
+ * Base16 Primer Dark ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jimmy Lin
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 255, 123, 114, 100 % );
+    blue:                        rgba ( 88, 166, 255, 100 % );
+    lightfg:                     rgba ( 201, 209, 217, 100 % );
+    lightbg:                     rgba ( 33, 38, 45, 100 % );
+    foreground:                  rgba ( 177, 186, 196, 100 % );
+    background:                  rgba ( 1, 4, 9, 100 % );
+    background-color:            rgba ( 1, 4, 9, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

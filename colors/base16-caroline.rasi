@@ -1,0 +1,37 @@
+/**
+ * Base16 caroline ROFI Color theme
+ *
+ * Authors
+ *  Scheme: ed (https://codeberg.org/ed)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 194, 79, 87, 100 % );
+    blue:                        rgba ( 104, 76, 89, 100 % );
+    lightfg:                     rgba ( 197, 141, 123, 100 % );
+    lightbg:                     rgba ( 58, 36, 37, 100 % );
+    foreground:                  rgba ( 168, 117, 105, 100 % );
+    background:                  rgba ( 28, 18, 19, 100 % );
+    background-color:            rgba ( 28, 18, 19, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

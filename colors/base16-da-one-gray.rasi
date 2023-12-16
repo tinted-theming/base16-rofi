@@ -1,0 +1,37 @@
+/**
+ * Base16 Da One Gray ROFI Color theme
+ *
+ * Authors
+ *  Scheme: NNB (https://github.com/NNBnh)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 250, 120, 131, 100 % );
+    blue:                        rgba ( 107, 184, 255, 100 % );
+    lightfg:                     rgba ( 255, 255, 255, 100 % );
+    lightbg:                     rgba ( 40, 40, 40, 100 % );
+    foreground:                  rgba ( 255, 255, 255, 100 % );
+    background:                  rgba ( 24, 24, 24, 100 % );
+    background-color:            rgba ( 24, 24, 24, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

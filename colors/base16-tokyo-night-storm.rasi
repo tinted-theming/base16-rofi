@@ -1,0 +1,37 @@
+/**
+ * Base16 Tokyo Night Storm ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Michaël Ball
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 192, 202, 245, 100 % );
+    blue:                        rgba ( 42, 195, 222, 100 % );
+    lightfg:                     rgba ( 203, 204, 209, 100 % );
+    lightbg:                     rgba ( 22, 22, 30, 100 % );
+    foreground:                  rgba ( 169, 177, 214, 100 % );
+    background:                  rgba ( 36, 40, 59, 100 % );
+    background-color:            rgba ( 36, 40, 59, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 standardized-light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: ali (https://github.com/ali-githb/base16-standardized-scheme)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 208, 62, 62, 100 % );
+    blue:                        rgba ( 49, 115, 197, 100 % );
+    lightfg:                     rgba ( 51, 51, 51, 100 % );
+    lightbg:                     rgba ( 238, 238, 238, 100 % );
+    foreground:                  rgba ( 68, 68, 68, 100 % );
+    background:                  rgba ( 255, 255, 255, 100 % );
+    background-color:            rgba ( 255, 255, 255, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

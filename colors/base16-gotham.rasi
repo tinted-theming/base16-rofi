@@ -1,0 +1,37 @@
+/**
+ * Base16 Gotham ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Andrea Leopardi (arranged by Brett Jones)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 194, 49, 39, 100 % );
+    blue:                        rgba ( 25, 84, 102, 100 % );
+    lightfg:                     rgba ( 153, 209, 206, 100 % );
+    lightbg:                     rgba ( 17, 21, 28, 100 % );
+    foreground:                  rgba ( 89, 156, 171, 100 % );
+    background:                  rgba ( 12, 16, 20, 100 % );
+    background-color:            rgba ( 12, 16, 20, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

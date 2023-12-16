@@ -1,0 +1,37 @@
+/**
+ * Base16 Nord Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: threddast, based on fuxialexander&#39;s doom-nord-light-theme (Doom Emacs)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 153, 50, 75, 100 % );
+    blue:                        rgba ( 59, 110, 168, 100 % );
+    lightfg:                     rgba ( 59, 66, 82, 100 % );
+    lightbg:                     rgba ( 194, 208, 231, 100 % );
+    foreground:                  rgba ( 46, 52, 64, 100 % );
+    background:                  rgba ( 229, 233, 240, 100 % );
+    background-color:            rgba ( 229, 233, 240, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

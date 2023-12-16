@@ -1,0 +1,37 @@
+/**
+ * Base16 Still Alive ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Derrick McKee (derrick.mckee@gmail.com)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 72, 120, 48, 100 % );
+    blue:                        rgba ( 0, 24, 120, 100 % );
+    lightfg:                     rgba ( 72, 144, 0, 100 % );
+    lightbg:                     rgba ( 240, 216, 72, 100 % );
+    foreground:                  rgba ( 216, 0, 0, 100 % );
+    background:                  rgba ( 240, 240, 240, 100 % );
+    background-color:            rgba ( 240, 240, 240, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

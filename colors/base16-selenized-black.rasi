@@ -1,0 +1,37 @@
+/**
+ * Base16 selenized-black ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 237, 74, 70, 100 % );
+    blue:                        rgba ( 54, 138, 235, 100 % );
+    lightfg:                     rgba ( 222, 222, 222, 100 % );
+    lightbg:                     rgba ( 37, 37, 37, 100 % );
+    foreground:                  rgba ( 185, 185, 185, 100 % );
+    background:                  rgba ( 24, 24, 24, 100 % );
+    background-color:            rgba ( 24, 24, 24, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

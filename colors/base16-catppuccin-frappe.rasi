@@ -1,0 +1,37 @@
+/**
+ * Base16 Catppuccin Frappe ROFI Color theme
+ *
+ * Authors
+ *  Scheme: https://github.com/catppuccin/catppuccin
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 231, 130, 132, 100 % );
+    blue:                        rgba ( 140, 170, 238, 100 % );
+    lightfg:                     rgba ( 242, 213, 207, 100 % );
+    lightbg:                     rgba ( 41, 44, 60, 100 % );
+    foreground:                  rgba ( 198, 208, 245, 100 % );
+    background:                  rgba ( 48, 52, 70, 100 % );
+    background-color:            rgba ( 48, 52, 70, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

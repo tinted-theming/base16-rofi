@@ -1,0 +1,37 @@
+/**
+ * Base16 Blueish ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Ben Mayoras
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 76, 229, 135, 100 % );
+    blue:                        rgba ( 130, 170, 255, 100 % );
+    lightfg:                     rgba ( 221, 234, 246, 100 % );
+    lightbg:                     rgba ( 36, 60, 84, 100 % );
+    foreground:                  rgba ( 200, 225, 248, 100 % );
+    background:                  rgba ( 24, 36, 48, 100 % );
+    background-color:            rgba ( 24, 36, 48, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -2,14 +2,14 @@
  * Base16 Rosé Pine Moon ROFI Color theme
  *
  * Authors
- *  Scheme: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
- *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
+ *  Scheme: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 236, 235, 240, 100 % );
-    blue:                        rgba ( 156, 207, 216, 100 % );
-    lightfg:                     rgba ( 245, 245, 247, 100 % );
+    red:                         rgba ( 235, 111, 146, 100 % );
+    blue:                        rgba ( 196, 167, 231, 100 % );
+    lightfg:                     rgba ( 224, 222, 244, 100 % );
     lightbg:                     rgba ( 42, 39, 63, 100 % );
     foreground:                  rgba ( 224, 222, 244, 100 % );
     background:                  rgba ( 35, 33, 54, 100 % );

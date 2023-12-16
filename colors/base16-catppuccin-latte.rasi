@@ -1,0 +1,37 @@
+/**
+ * Base16 Catppuccin Latte ROFI Color theme
+ *
+ * Authors
+ *  Scheme: https://github.com/catppuccin/catppuccin
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 210, 15, 57, 100 % );
+    blue:                        rgba ( 30, 102, 245, 100 % );
+    lightfg:                     rgba ( 220, 138, 120, 100 % );
+    lightbg:                     rgba ( 230, 233, 239, 100 % );
+    foreground:                  rgba ( 76, 79, 105, 100 % );
+    background:                  rgba ( 239, 241, 245, 100 % );
+    background-color:            rgba ( 239, 241, 245, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Jabuti ROFI Color theme
+ *
+ * Authors
+ *  Scheme: https://github.com/notusknot
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 236, 106, 136, 100 % );
+    blue:                        rgba ( 63, 198, 222, 100 % );
+    lightfg:                     rgba ( 217, 224, 238, 100 % );
+    lightbg:                     rgba ( 52, 53, 69, 100 % );
+    foreground:                  rgba ( 192, 203, 227, 100 % );
+    background:                  rgba ( 41, 42, 55, 100 % );
+    background-color:            rgba ( 41, 42, 55, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
