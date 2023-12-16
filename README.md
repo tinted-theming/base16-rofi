@@ -36,3 +36,8 @@ cp hook/rofi.sh $BASE16_SHELL_HOOKS && chmod +x $BASE16_SHELL_HOOK/rofi.sh
 ```
 
 Then set the `rofi_config_file` and `rofi_themes_dir` variables in the script.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md), which contains building and contributing
+instructions.
