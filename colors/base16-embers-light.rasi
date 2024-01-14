@@ -1,0 +1,37 @@
+/**
+ * Base16 Embers Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Jannik Siebert (https://github.com/janniks)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 87, 109, 130, 100 % );
+    blue:                        rgba ( 130, 87, 109, 100 % );
+    lightfg:                     rgba ( 32, 38, 44, 100 % );
+    lightbg:                     rgba ( 174, 182, 190, 100 % );
+    foreground:                  rgba ( 50, 59, 67, 100 % );
+    background:                  rgba ( 209, 214, 219, 100 % );
+    background-color:            rgba ( 209, 214, 219, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
