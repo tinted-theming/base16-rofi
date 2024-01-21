@@ -1,0 +1,37 @@
+/**
+ * Base16 Measured Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Measured (https://measured.co)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 172, 31, 53, 100 % );
+    blue:                        rgba ( 1, 88, 173, 100 % );
+    lightfg:                     rgba ( 24, 24, 24, 100 % );
+    lightbg:                     rgba ( 249, 245, 241, 100 % );
+    foreground:                  rgba ( 41, 41, 41, 100 % );
+    background:                  rgba ( 253, 249, 245, 100 % );
+    background-color:            rgba ( 253, 249, 245, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
