@@ -1,0 +1,37 @@
+/**
+ * Base16 Tokyo Night Moon ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Ólafur Bjarki Bogason
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 255, 117, 127, 100 % );
+    blue:                        rgba ( 130, 170, 255, 100 % );
+    lightfg:                     rgba ( 130, 139, 184, 100 % );
+    lightbg:                     rgba ( 30, 32, 48, 100 % );
+    foreground:                  rgba ( 59, 66, 97, 100 % );
+    background:                  rgba ( 34, 36, 54, 100 % );
+    background-color:            rgba ( 34, 36, 54, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

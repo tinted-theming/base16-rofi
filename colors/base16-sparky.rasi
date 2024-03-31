@@ -1,0 +1,37 @@
+/**
+ * Base16 Sparky ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Leila Sother (https://github.com/mixcoac)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 255, 88, 93, 100 % );
+    blue:                        rgba ( 70, 152, 203, 100 % );
+    lightfg:                     rgba ( 245, 245, 241, 100 % );
+    lightbg:                     rgba ( 0, 49, 60, 100 % );
+    foreground:                  rgba ( 244, 245, 240, 100 % );
+    background:                  rgba ( 7, 43, 49, 100 % );
+    background-color:            rgba ( 7, 43, 49, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
