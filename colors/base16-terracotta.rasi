@@ -1,0 +1,37 @@
+/**
+ * Base16 Terracotta ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Alexander Rossell Hayes (https://github.com/rossellhayes)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 167, 80, 69, 100 % );
+    blue:                        rgba ( 98, 85, 116, 100 % );
+    lightfg:                     rgba ( 53, 42, 37, 100 % );
+    lightbg:                     rgba ( 223, 214, 209, 100 % );
+    foreground:                  rgba ( 71, 55, 49, 100 % );
+    background:                  rgba ( 239, 234, 232, 100 % );
+    background-color:            rgba ( 239, 234, 232, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

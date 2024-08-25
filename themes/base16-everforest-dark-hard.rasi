@@ -2,14 +2,14 @@
  * Base16 Everforest Dark Hard ROFI Color theme
  *
  * Authors
- *  Scheme: Oskar Liew (https://github.com/OskarLiew)
+ *  Scheme: Sainnhe Park (https://github.com/sainnhe)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 127, 187, 179, 100 % );
-    blue:                        rgba ( 167, 192, 128, 100 % );
-    lightfg:                     rgba ( 228, 225, 205, 100 % );
+    red:                         rgba ( 230, 126, 128, 100 % );
+    blue:                        rgba ( 127, 187, 179, 100 % );
+    lightfg:                     rgba ( 237, 234, 218, 100 % );
     lightbg:                     rgba ( 46, 56, 60, 100 % );
     foreground:                  rgba ( 211, 198, 170, 100 % );
     background:                  rgba ( 39, 46, 51, 100 % );
