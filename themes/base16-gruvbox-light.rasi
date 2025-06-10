@@ -1,19 +1,19 @@
 /**
- * Base16 Windows 10 ROFI Color theme
+ * Base16 Gruvbox Light ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 231, 72, 86, 100 % );
-    blue:                        rgba ( 59, 120, 255, 100 % );
-    lightfg:                     rgba ( 223, 223, 223, 100 % );
-    lightbg:                     rgba ( 47, 47, 47, 100 % );
-    foreground:                  rgba ( 204, 204, 204, 100 % );
-    background:                  rgba ( 12, 12, 12, 100 % );
-    background-color:            rgba ( 12, 12, 12, 0 % );
+    red:                         rgba ( 204, 36, 29, 100 % );
+    blue:                        rgba ( 69, 133, 136, 100 % );
+    lightfg:                     rgba ( 40, 40, 40, 100 % );
+    lightbg:                     rgba ( 235, 219, 178, 100 % );
+    foreground:                  rgba ( 60, 56, 54, 100 % );
+    background:                  rgba ( 251, 241, 199, 100 % );
+    background-color:            rgba ( 251, 241, 199, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

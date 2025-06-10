@@ -1,19 +1,19 @@
 /**
- * Base16 Windows High Contrast Light ROFI Color theme
+ * Base16 Kanagawa Dragon ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Tommaso Laurenzi (https://github.com/rebelot)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 128, 0, 0, 100 % );
-    blue:                        rgba ( 0, 0, 128, 100 % );
-    lightfg:                     rgba ( 42, 42, 42, 100 % );
-    lightbg:                     rgba ( 232, 232, 232, 100 % );
-    foreground:                  rgba ( 84, 84, 84, 100 % );
-    background:                  rgba ( 252, 252, 252, 100 % );
-    background-color:            rgba ( 252, 252, 252, 0 % );
+    red:                         rgba ( 196, 116, 110, 100 % );
+    blue:                        rgba ( 139, 164, 176, 100 % );
+    lightfg:                     rgba ( 122, 131, 130, 100 % );
+    lightbg:                     rgba ( 29, 28, 25, 100 % );
+    foreground:                  rgba ( 197, 201, 197, 100 % );
+    background:                  rgba ( 13, 12, 12, 100 % );
+    background-color:            rgba ( 13, 12, 12, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

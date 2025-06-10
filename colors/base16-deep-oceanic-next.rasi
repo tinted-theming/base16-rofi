@@ -2,18 +2,18 @@
  * Base16 Deep Oceanic Next ROFI Color theme
  *
  * Authors
- *  Scheme: spearkkk (https://github.com/spearkkk/deep-oceanic-next)
+ *  Scheme: spearkkk (https://github.com/spearkkk)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 230, 69, 75, 100 % );
-    blue:                        rgba ( 58, 130, 230, 100 % );
-    lightfg:                     rgba ( 230, 235, 240, 100 % );
-    lightbg:                     rgba ( 0, 79, 94, 100 % );
-    foreground:                  rgba ( 220, 227, 232, 100 % );
-    background:                  rgba ( 0, 59, 70, 100 % );
-    background-color:            rgba ( 0, 59, 70, 0 % );
+    red:                         rgba ( 211, 70, 77, 100 % );
+    blue:                        rgba ( 86, 140, 207, 100 % );
+    lightfg:                     rgba ( 224, 233, 239, 100 % );
+    lightbg:                     rgba ( 0, 41, 49, 100 % );
+    foreground:                  rgba ( 212, 225, 232, 100 % );
+    background:                  rgba ( 0, 28, 31, 100 % );
+    background-color:            rgba ( 0, 28, 31, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

@@ -1,19 +1,19 @@
 /**
- * Base16 Windows 10 ROFI Color theme
+ * Base16 Github Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Tinted Theming (https://github.com/tinted-theming)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 231, 72, 86, 100 % );
-    blue:                        rgba ( 59, 120, 255, 100 % );
-    lightfg:                     rgba ( 223, 223, 223, 100 % );
-    lightbg:                     rgba ( 47, 47, 47, 100 % );
-    foreground:                  rgba ( 204, 204, 204, 100 % );
-    background:                  rgba ( 12, 12, 12, 100 % );
-    background-color:            rgba ( 12, 12, 12, 0 % );
+    red:                         rgba ( 248, 81, 73, 100 % );
+    blue:                        rgba ( 56, 139, 253, 100 % );
+    lightfg:                     rgba ( 240, 246, 252, 100 % );
+    lightbg:                     rgba ( 48, 54, 61, 100 % );
+    foreground:                  rgba ( 201, 209, 217, 100 % );
+    background:                  rgba ( 22, 27, 34, 100 % );
+    background-color:            rgba ( 22, 27, 34, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

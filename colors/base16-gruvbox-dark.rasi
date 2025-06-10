@@ -1,19 +1,19 @@
 /**
- * Base16 Windows High Contrast Light ROFI Color theme
+ * Base16 Gruvbox dark ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 128, 0, 0, 100 % );
-    blue:                        rgba ( 0, 0, 128, 100 % );
-    lightfg:                     rgba ( 42, 42, 42, 100 % );
-    lightbg:                     rgba ( 232, 232, 232, 100 % );
-    foreground:                  rgba ( 84, 84, 84, 100 % );
-    background:                  rgba ( 252, 252, 252, 100 % );
-    background-color:            rgba ( 252, 252, 252, 0 % );
+    red:                         rgba ( 204, 36, 29, 100 % );
+    blue:                        rgba ( 69, 133, 136, 100 % );
+    lightfg:                     rgba ( 251, 241, 199, 100 % );
+    lightbg:                     rgba ( 60, 56, 54, 100 % );
+    foreground:                  rgba ( 235, 219, 178, 100 % );
+    background:                  rgba ( 40, 40, 40, 100 % );
+    background-color:            rgba ( 40, 40, 40, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

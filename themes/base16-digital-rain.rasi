@@ -1,19 +1,19 @@
 /**
- * Base16 Windows 10 ROFI Color theme
+ * Base16 Digital Rain ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Nathan Byrd (https://github.com/cognitivegears)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 231, 72, 86, 100 % );
-    blue:                        rgba ( 59, 120, 255, 100 % );
-    lightfg:                     rgba ( 223, 223, 223, 100 % );
-    lightbg:                     rgba ( 47, 47, 47, 100 % );
-    foreground:                  rgba ( 204, 204, 204, 100 % );
-    background:                  rgba ( 12, 12, 12, 100 % );
-    background-color:            rgba ( 12, 12, 12, 0 % );
+    red:                         rgba ( 200, 90, 70, 100 % );
+    blue:                        rgba ( 84, 130, 175, 100 % );
+    lightfg:                     rgba ( 196, 206, 196, 100 % );
+    lightbg:                     rgba ( 74, 128, 108, 100 % );
+    foreground:                  rgba ( 0, 255, 0, 100 % );
+    background:                  rgba ( 0, 0, 0, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

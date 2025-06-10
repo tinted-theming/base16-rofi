@@ -1,19 +1,19 @@
 /**
- * Base16 Windows High Contrast Light ROFI Color theme
+ * Base16 Github Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Fergus Collins (https://github.com/ferguscollins)
+ *  Scheme: Tinted Theming (https://github.com/tinted-theming)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 128, 0, 0, 100 % );
-    blue:                        rgba ( 0, 0, 128, 100 % );
-    lightfg:                     rgba ( 42, 42, 42, 100 % );
-    lightbg:                     rgba ( 232, 232, 232, 100 % );
-    foreground:                  rgba ( 84, 84, 84, 100 % );
-    background:                  rgba ( 252, 252, 252, 100 % );
-    background-color:            rgba ( 252, 252, 252, 0 % );
+    red:                         rgba ( 248, 81, 73, 100 % );
+    blue:                        rgba ( 56, 139, 253, 100 % );
+    lightfg:                     rgba ( 240, 246, 252, 100 % );
+    lightbg:                     rgba ( 48, 54, 61, 100 % );
+    foreground:                  rgba ( 201, 209, 217, 100 % );
+    background:                  rgba ( 22, 27, 34, 100 % );
+    background-color:            rgba ( 22, 27, 34, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
