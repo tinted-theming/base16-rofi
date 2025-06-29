@@ -1,0 +1,37 @@
+/**
+ * Base16 Penumbra Light Contrast Plus Plus ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Zachary Weiss (https://github.com/zacharyweiss)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 245, 140, 129, 100 % );
+    blue:                        rgba ( 110, 178, 253, 100 % );
+    lightfg:                     rgba ( 24, 27, 31, 100 % );
+    lightbg:                     rgba ( 255, 247, 237, 100 % );
+    foreground:                  rgba ( 99, 99, 99, 100 % );
+    background:                  rgba ( 255, 253, 251, 100 % );
+    background-color:            rgba ( 255, 253, 251, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
