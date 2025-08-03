@@ -1,19 +1,19 @@
 /**
- * Base16 Tomorrow ROFI Color theme
+ * Base16 Charcoal Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Chris Kempson (http://chriskempson.com)
+ *  Scheme: Mubin Muhammad (https://github.com/mubin6th)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 200, 40, 41, 100 % );
-    blue:                        rgba ( 66, 113, 174, 100 % );
-    lightfg:                     rgba ( 40, 42, 46, 100 % );
-    lightbg:                     rgba ( 224, 224, 224, 100 % );
-    foreground:                  rgba ( 55, 59, 65, 100 % );
-    background:                  rgba ( 255, 255, 255, 100 % );
-    background-color:            rgba ( 255, 255, 255, 0 % );
+    red:                         rgba ( 136, 114, 84, 100 % );
+    blue:                        rgba ( 214, 184, 145, 100 % );
+    lightfg:                     rgba ( 214, 184, 145, 100 % );
+    lightbg:                     rgba ( 30, 24, 18, 100 % );
+    foreground:                  rgba ( 192, 161, 121, 100 % );
+    background:                  rgba ( 18, 15, 9, 100 % );
+    background-color:            rgba ( 18, 15, 9, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
