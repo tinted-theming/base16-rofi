@@ -2,18 +2,18 @@
  * Base16 Ayu Light ROFI Color theme
  *
  * Authors
- *  Scheme: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+ *  Scheme: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 240, 113, 120, 100 % );
-    blue:                        rgba ( 54, 163, 217, 100 % );
-    lightfg:                     rgba ( 36, 41, 54, 100 % );
-    lightbg:                     rgba ( 243, 244, 245, 100 % );
-    foreground:                  rgba ( 92, 103, 115, 100 % );
-    background:                  rgba ( 250, 250, 250, 100 % );
-    background-color:            rgba ( 250, 250, 250, 0 % );
+    red:                         rgba ( 240, 113, 113, 100 % );
+    blue:                        rgba ( 57, 158, 230, 100 % );
+    lightfg:                     rgba ( 78, 82, 87, 100 % );
+    lightbg:                     rgba ( 237, 239, 241, 100 % );
+    foreground:                  rgba ( 92, 97, 102, 100 % );
+    background:                  rgba ( 248, 249, 250, 100 % );
+    background-color:            rgba ( 248, 249, 250, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
