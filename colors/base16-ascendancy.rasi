@@ -1,19 +1,19 @@
 /**
- * Base16 eris ROFI Color theme
+ * Base16 Ascendancy ROFI Color theme
  *
  * Authors
- *  Scheme: ed (https://codeberg.org/ed), Tinted Theming (https://github.com/tinted-theming)
+ *  Scheme: EmergentMind (https://github.com/emergentmind/ascendancy-scheme)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 247, 104, 163, 100 % );
-    blue:                        rgba ( 37, 143, 196, 100 % );
-    lightfg:                     rgba ( 121, 134, 197, 100 % );
-    lightbg:                     rgba ( 19, 19, 58, 100 % );
-    foreground:                  rgba ( 96, 107, 172, 100 % );
-    background:                  rgba ( 10, 9, 32, 100 % );
-    background-color:            rgba ( 10, 9, 32, 0 % );
+    red:                         rgba ( 192, 57, 0, 100 % );
+    blue:                        rgba ( 69, 133, 136, 100 % );
+    lightfg:                     rgba ( 235, 219, 178, 100 % );
+    lightbg:                     rgba ( 33, 47, 61, 100 % );
+    foreground:                  rgba ( 213, 199, 161, 100 % );
+    background:                  rgba ( 40, 40, 40, 100 % );
+    background-color:            rgba ( 40, 40, 40, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
