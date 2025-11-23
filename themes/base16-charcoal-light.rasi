@@ -7,13 +7,13 @@
  */
 
 * {
-    red:                         rgba ( 65, 51, 37, 100 % );
-    blue:                        rgba ( 18, 15, 9, 100 % );
-    lightfg:                     rgba ( 65, 51, 37, 100 % );
-    lightbg:                     rgba ( 192, 161, 121, 100 % );
-    foreground:                  rgba ( 53, 41, 29, 100 % );
-    background:                  rgba ( 214, 184, 145, 100 % );
-    background-color:            rgba ( 214, 184, 145, 0 % );
+    red:                         rgba ( 56, 46, 27, 100 % );
+    blue:                        rgba ( 37, 30, 15, 100 % );
+    lightfg:                     rgba ( 75, 62, 38, 100 % );
+    lightbg:                     rgba ( 188, 173, 140, 100 % );
+    foreground:                  rgba ( 56, 46, 27, 100 % );
+    background:                  rgba ( 202, 189, 160, 100 % );
+    background-color:            rgba ( 202, 189, 160, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
