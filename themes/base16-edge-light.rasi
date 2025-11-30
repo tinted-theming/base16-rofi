@@ -2,16 +2,16 @@
  * Base16 Edge Light ROFI Color theme
  *
  * Authors
- *  Scheme: cjayross (https://github.com/cjayross)
+ *  Scheme: cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
     red:                         rgba ( 219, 112, 112, 100 % );
     blue:                        rgba ( 101, 135, 191, 100 % );
-    lightfg:                     rgba ( 184, 112, 206, 100 % );
-    lightbg:                     rgba ( 124, 159, 75, 100 % );
-    foreground:                  rgba ( 94, 100, 111, 100 % );
+    lightfg:                     rgba ( 58, 58, 70, 100 % );
+    lightbg:                     rgba ( 227, 229, 232, 100 % );
+    foreground:                  rgba ( 71, 71, 82, 100 % );
     background:                  rgba ( 250, 250, 250, 100 % );
     background-color:            rgba ( 250, 250, 250, 0 % );
     separatorcolor:              @foreground;

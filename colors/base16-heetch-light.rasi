@@ -2,15 +2,15 @@
  * Base16 Heetch Light ROFI Color theme
  *
  * Authors
- *  Scheme: Geoffrey Teale (tealeg@gmail.com)
+ *  Scheme: Geoffrey Teale (tealeg@gmail.com), Tinted Theming (https://github.com/tinted-theming)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 39, 217, 213, 100 % );
-    blue:                        rgba ( 71, 249, 245, 100 % );
-    lightfg:                     rgba ( 71, 5, 70, 100 % );
-    lightbg:                     rgba ( 57, 37, 81, 100 % );
+    red:                         rgba ( 248, 0, 89, 100 % );
+    blue:                        rgba ( 91, 162, 182, 100 % );
+    lightfg:                     rgba ( 57, 37, 81, 100 % );
+    lightbg:                     rgba ( 222, 218, 226, 100 % );
     foreground:                  rgba ( 90, 73, 110, 100 % );
     background:                  rgba ( 254, 255, 255, 100 % );
     background-color:            rgba ( 254, 255, 255, 0 % );

@@ -2,16 +2,16 @@
  * Base16 PaperColor Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Jon Leopard (http://github.com/jonleopard), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+ *  Scheme: Jon Leopard (http://github.com/jonleopard), Tinted Theming (https://github.com/tinted-theming), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 88, 88, 88, 100 % );
-    blue:                        rgba ( 255, 95, 175, 100 % );
-    lightfg:                     rgba ( 215, 135, 95, 100 % );
-    lightbg:                     rgba ( 175, 0, 95, 100 % );
-    foreground:                  rgba ( 128, 128, 128, 100 % );
+    red:                         rgba ( 255, 95, 175, 100 % );
+    blue:                        rgba ( 95, 175, 215, 100 % );
+    lightfg:                     rgba ( 184, 184, 184, 100 % );
+    lightbg:                     rgba ( 54, 54, 54, 100 % );
+    foreground:                  rgba ( 158, 158, 158, 100 % );
     background:                  rgba ( 28, 28, 28, 100 % );
     background-color:            rgba ( 28, 28, 28, 0 % );
     separatorcolor:              @foreground;

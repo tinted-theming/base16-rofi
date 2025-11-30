@@ -2,13 +2,13 @@
  * Base16 Oxocarbon Dark ROFI Color theme
  *
  * Authors
- *  Scheme: shaunsingh/IBM
+ *  Scheme: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 61, 219, 217, 100 % );
-    blue:                        rgba ( 66, 190, 101, 100 % );
+    red:                         rgba ( 238, 83, 150, 100 % );
+    blue:                        rgba ( 51, 177, 255, 100 % );
     lightfg:                     rgba ( 255, 255, 255, 100 % );
     lightbg:                     rgba ( 38, 38, 38, 100 % );
     foreground:                  rgba ( 242, 244, 248, 100 % );
