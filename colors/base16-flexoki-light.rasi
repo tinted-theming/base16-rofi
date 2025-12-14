@@ -1,0 +1,37 @@
+/**
+ * Base16 Flexoki Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Steph Ango (https://github.com/kepano/flexoki)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 175, 48, 41, 100 % );
+    blue:                        rgba ( 32, 94, 166, 100 % );
+    lightfg:                     rgba ( 40, 39, 38, 100 % );
+    lightbg:                     rgba ( 242, 240, 229, 100 % );
+    foreground:                  rgba ( 64, 62, 60, 100 % );
+    background:                  rgba ( 255, 252, 240, 100 % );
+    background-color:            rgba ( 255, 252, 240, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
