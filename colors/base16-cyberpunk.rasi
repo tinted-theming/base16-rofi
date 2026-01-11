@@ -1,19 +1,19 @@
 /**
- * Base16 Catppuccin Latte ROFI Color theme
+ * Base16 Cyberpunk ROFI Color theme
  *
  * Authors
- *  Scheme: https://github.com/catppuccin/catppuccin
+ *  Scheme: benjujo
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 210, 15, 57, 100 % );
-    blue:                        rgba ( 30, 102, 245, 100 % );
-    lightfg:                     rgba ( 220, 138, 120, 100 % );
-    lightbg:                     rgba ( 204, 208, 218, 100 % );
-    foreground:                  rgba ( 76, 79, 105, 100 % );
-    background:                  rgba ( 239, 241, 245, 100 % );
-    background-color:            rgba ( 239, 241, 245, 0 % );
+    red:                         rgba ( 255, 0, 0, 100 % );
+    blue:                        rgba ( 76, 131, 255, 100 % );
+    lightfg:                     rgba ( 248, 248, 248, 100 % );
+    lightbg:                     rgba ( 43, 43, 43, 100 % );
+    foreground:                  rgba ( 220, 220, 204, 100 % );
+    background:                  rgba ( 0, 0, 0, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

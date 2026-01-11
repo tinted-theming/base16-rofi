@@ -1,19 +1,19 @@
 /**
- * Base16 Kanagawa Dragon ROFI Color theme
+ * Base16 Cyberpunk ROFI Color theme
  *
  * Authors
- *  Scheme: Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim)
+ *  Scheme: benjujo
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 196, 116, 110, 100 % );
-    blue:                        rgba ( 139, 164, 176, 100 % );
-    lightfg:                     rgba ( 200, 192, 147, 100 % );
-    lightbg:                     rgba ( 40, 39, 39, 100 % );
-    foreground:                  rgba ( 197, 201, 197, 100 % );
-    background:                  rgba ( 24, 22, 22, 100 % );
-    background-color:            rgba ( 24, 22, 22, 0 % );
+    red:                         rgba ( 255, 0, 0, 100 % );
+    blue:                        rgba ( 76, 131, 255, 100 % );
+    lightfg:                     rgba ( 248, 248, 248, 100 % );
+    lightbg:                     rgba ( 43, 43, 43, 100 % );
+    foreground:                  rgba ( 220, 220, 204, 100 % );
+    background:                  rgba ( 0, 0, 0, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
