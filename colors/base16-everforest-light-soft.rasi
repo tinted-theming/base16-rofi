@@ -1,19 +1,19 @@
 /**
- * Base16 Embers Light ROFI Color theme
+ * Base16 Everforest Light (Soft) ROFI Color theme
  *
  * Authors
- *  Scheme: Jannik Siebert (https://github.com/janniks)
+ *  Scheme: Márcio Sobel (https://github.com/marciosobel)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 130, 109, 87, 100 % );
-    blue:                        rgba ( 109, 87, 130, 100 % );
-    lightfg:                     rgba ( 44, 38, 32, 100 % );
-    lightbg:                     rgba ( 190, 182, 174, 100 % );
-    foreground:                  rgba ( 67, 59, 50, 100 % );
-    background:                  rgba ( 219, 214, 209, 100 % );
-    background-color:            rgba ( 219, 214, 209, 0 % );
+    red:                         rgba ( 248, 85, 82, 100 % );
+    blue:                        rgba ( 58, 148, 197, 100 % );
+    lightfg:                     rgba ( 77, 89, 96, 100 % );
+    lightbg:                     rgba ( 234, 228, 202, 100 % );
+    foreground:                  rgba ( 92, 106, 114, 100 % );
+    background:                  rgba ( 243, 234, 211, 100 % );
+    background-color:            rgba ( 243, 234, 211, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
