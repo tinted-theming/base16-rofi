@@ -1,19 +1,19 @@
 /**
- * Base16 Dracula ROFI Color theme
+ * Base16 Swamp Light ROFI Color theme
  *
  * Authors
- *  Scheme: clach04 (https://github.com/clach04)
+ *  Scheme: Masroof Maindak (https://github.com/masroof-maindak)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 255, 85, 85, 100 % );
-    blue:                        rgba ( 189, 147, 249, 100 % );
-    lightfg:                     rgba ( 248, 248, 242, 100 % );
-    lightbg:                     rgba ( 33, 34, 44, 100 % );
-    foreground:                  rgba ( 248, 248, 242, 100 % );
-    background:                  rgba ( 40, 42, 54, 100 % );
-    background-color:            rgba ( 40, 42, 54, 0 % );
+    red:                         rgba ( 208, 151, 0, 100 % );
+    blue:                        rgba ( 191, 121, 121, 100 % );
+    lightfg:                     rgba ( 120, 102, 83, 100 % );
+    lightbg:                     rgba ( 221, 206, 188, 100 % );
+    foreground:                  rgba ( 100, 81, 62, 100 % );
+    background:                  rgba ( 241, 227, 209, 100 % );
+    background-color:            rgba ( 241, 227, 209, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
