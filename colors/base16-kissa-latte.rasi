@@ -1,0 +1,37 @@
+/**
+ * Base16 Kissa Latte ROFI Color theme
+ *
+ * Authors
+ *  Scheme: rwendell (https://github.com/rwendell/kissa)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 158, 62, 62, 100 % );
+    blue:                        rgba ( 52, 104, 168, 100 % );
+    lightfg:                     rgba ( 110, 100, 89, 100 % );
+    lightbg:                     rgba ( 232, 231, 227, 100 % );
+    foreground:                  rgba ( 31, 28, 22, 100 % );
+    background:                  rgba ( 245, 244, 240, 100 % );
+    background-color:            rgba ( 245, 244, 240, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
