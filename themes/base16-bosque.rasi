@@ -1,19 +1,19 @@
 /**
- * Base16 Github ROFI Color theme
+ * Base16 Bosque ROFI Color theme
  *
  * Authors
- *  Scheme: Tinted Theming (https://github.com/tinted-theming)
+ *  Scheme: Teshre
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 149, 56, 0, 100 % );
-    blue:                        rgba ( 130, 80, 223, 100 % );
-    lightfg:                     rgba ( 50, 56, 63, 100 % );
-    lightbg:                     rgba ( 246, 248, 250, 100 % );
-    foreground:                  rgba ( 66, 74, 83, 100 % );
-    background:                  rgba ( 255, 255, 255, 100 % );
-    background-color:            rgba ( 255, 255, 255, 0 % );
+    red:                         rgba ( 226, 112, 106, 100 % );
+    blue:                        rgba ( 109, 174, 158, 100 % );
+    lightfg:                     rgba ( 218, 235, 218, 100 % );
+    lightbg:                     rgba ( 22, 33, 26, 100 % );
+    foreground:                  rgba ( 207, 229, 210, 100 % );
+    background:                  rgba ( 14, 20, 16, 100 % );
+    background-color:            rgba ( 14, 20, 16, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

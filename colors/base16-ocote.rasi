@@ -1,19 +1,19 @@
 /**
- * Base16 Github ROFI Color theme
+ * Base16 Ocote ROFI Color theme
  *
  * Authors
- *  Scheme: Tinted Theming (https://github.com/tinted-theming)
+ *  Scheme: Teshre
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 149, 56, 0, 100 % );
-    blue:                        rgba ( 130, 80, 223, 100 % );
-    lightfg:                     rgba ( 50, 56, 63, 100 % );
-    lightbg:                     rgba ( 246, 248, 250, 100 % );
-    foreground:                  rgba ( 66, 74, 83, 100 % );
-    background:                  rgba ( 255, 255, 255, 100 % );
-    background-color:            rgba ( 255, 255, 255, 0 % );
+    red:                         rgba ( 232, 99, 90, 100 % );
+    blue:                        rgba ( 130, 166, 224, 100 % );
+    lightfg:                     rgba ( 241, 233, 217, 100 % );
+    lightbg:                     rgba ( 33, 27, 19, 100 % );
+    foreground:                  rgba ( 231, 220, 198, 100 % );
+    background:                  rgba ( 20, 16, 12, 100 % );
+    background-color:            rgba ( 20, 16, 12, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
