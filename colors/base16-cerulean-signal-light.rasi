@@ -1,0 +1,37 @@
+/**
+ * Base16 Cerulean Signal Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Aaron Colichia (https://aaron.colichia.org/)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 180, 35, 61, 100 % );
+    blue:                        rgba ( 0, 111, 168, 100 % );
+    lightfg:                     rgba ( 32, 43, 58, 100 % );
+    lightbg:                     rgba ( 238, 244, 251, 100 % );
+    foreground:                  rgba ( 35, 43, 56, 100 % );
+    background:                  rgba ( 247, 249, 252, 100 % );
+    background-color:            rgba ( 247, 249, 252, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
