@@ -1,0 +1,37 @@
+/**
+ * Base16 Neovim Light ROFI Color theme
+ *
+ * Authors
+ *  Scheme: https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 89, 0, 8, 100 % );
+    blue:                        rgba ( 0, 76, 115, 100 % );
+    lightfg:                     rgba ( 7, 8, 13, 100 % );
+    lightbg:                     rgba ( 238, 241, 248, 100 % );
+    foreground:                  rgba ( 20, 22, 27, 100 % );
+    background:                  rgba ( 224, 226, 234, 100 % );
+    background-color:            rgba ( 224, 226, 234, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
