@@ -1,19 +1,19 @@
 /**
- * Base16 Apprentice ROFI Color theme
+ * Base16 Corduroy Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Romain Lafourcade (https://github.com/romainl)
+ *  Scheme: taysatte (https://github.com/taysatte)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 175, 95, 95, 100 % );
-    blue:                        rgba ( 95, 135, 175, 100 % );
-    lightfg:                     rgba ( 223, 223, 223, 100 % );
-    lightbg:                     rgba ( 48, 48, 48, 100 % );
-    foreground:                  rgba ( 188, 188, 188, 100 % );
-    background:                  rgba ( 38, 38, 38, 100 % );
-    background-color:            rgba ( 38, 38, 38, 0 % );
+    red:                         rgba ( 232, 117, 138, 100 % );
+    blue:                        rgba ( 220, 146, 163, 100 % );
+    lightfg:                     rgba ( 221, 216, 223, 100 % );
+    lightbg:                     rgba ( 27, 21, 30, 100 % );
+    foreground:                  rgba ( 221, 216, 223, 100 % );
+    background:                  rgba ( 20, 16, 22, 100 % );
+    background-color:            rgba ( 20, 16, 22, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
