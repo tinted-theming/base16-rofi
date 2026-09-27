@@ -1,0 +1,37 @@
+/**
+ * Base16 Tokio ROFI Color theme
+ *
+ * Authors
+ *  Scheme: xscriptor (https://github.com/xscriptor)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 252, 97, 141, 100 % );
+    blue:                        rgba ( 253, 147, 83, 100 % );
+    lightfg:                     rgba ( 249, 244, 255, 100 % );
+    lightbg:                     rgba ( 43, 43, 45, 100 % );
+    foreground:                  rgba ( 247, 241, 255, 100 % );
+    background:                  rgba ( 28, 28, 29, 100 % );
+    background-color:            rgba ( 28, 28, 29, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Helsinki ROFI Color theme
+ *
+ * Authors
+ *  Scheme: xscriptor (https://github.com/xscriptor)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 31, 170, 158, 100 % );
+    blue:                        rgba ( 181, 90, 15, 100 % );
+    lightfg:                     rgba ( 59, 54, 45, 100 % );
+    lightbg:                     rgba ( 237, 238, 241, 100 % );
+    foreground:                  rgba ( 84, 77, 64, 100 % );
+    background:                  rgba ( 248, 250, 254, 100 % );
+    background-color:            rgba ( 248, 250, 254, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
