@@ -7,11 +7,11 @@
  */
 
 * {
-    red:                         rgba ( 112, 44, 0, 100 % );
-    blue:                        rgba ( 98, 44, 188, 100 % );
-    lightfg:                     rgba ( 32, 37, 44, 100 % );
-    lightbg:                     rgba ( 231, 236, 240, 100 % );
-    foreground:                  rgba ( 52, 59, 67, 100 % );
+    red:                         rgba ( 160, 17, 31, 100 % );
+    blue:                        rgba ( 3, 73, 180, 100 % );
+    lightfg:                     rgba ( 37, 41, 46, 100 % );
+    lightbg:                     rgba ( 246, 248, 250, 100 % );
+    foreground:                  rgba ( 69, 76, 84, 100 % );
     background:                  rgba ( 255, 255, 255, 100 % );
     background-color:            rgba ( 255, 255, 255, 0 % );
     separatorcolor:              @foreground;

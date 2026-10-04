@@ -1,19 +1,19 @@
 /**
- * Base16 Github Dark Colorblind ROFI Color theme
+ * Base16 Sequoia Retro Light ROFI Color theme
  *
  * Authors
- *  Scheme: Tinted Theming (https://github.com/tinted-theming)
+ *  Scheme: Micheal Andreuzza (https://michaelandreuzza.com/)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 240, 136, 62, 100 % );
-    blue:                        rgba ( 88, 166, 255, 100 % );
-    lightfg:                     rgba ( 240, 246, 252, 100 % );
-    lightbg:                     rgba ( 21, 27, 35, 100 % );
-    foreground:                  rgba ( 209, 215, 224, 100 % );
-    background:                  rgba ( 13, 17, 23, 100 % );
-    background-color:            rgba ( 13, 17, 23, 0 % );
+    red:                         rgba ( 95, 121, 130, 100 % );
+    blue:                        rgba ( 69, 106, 130, 100 % );
+    lightfg:                     rgba ( 40, 41, 48, 100 % );
+    lightbg:                     rgba ( 226, 227, 232, 100 % );
+    foreground:                  rgba ( 40, 41, 48, 100 % );
+    background:                  rgba ( 237, 238, 242, 100 % );
+    background-color:            rgba ( 237, 238, 242, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
