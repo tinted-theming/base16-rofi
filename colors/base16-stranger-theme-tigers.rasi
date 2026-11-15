@@ -1,0 +1,37 @@
+/**
+ * Base16 Stranger Theme Tigers ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Stranger Theme (https://github.com/stranger-theme/stranger-theme)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 204, 102, 102, 100 % );
+    blue:                        rgba ( 178, 148, 187, 100 % );
+    lightfg:                     rgba ( 255, 255, 255, 100 % );
+    lightbg:                     rgba ( 44, 50, 44, 100 % );
+    foreground:                  rgba ( 245, 245, 245, 100 % );
+    background:                  rgba ( 24, 30, 24, 100 % );
+    background-color:            rgba ( 24, 30, 24, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 duskfox ROFI Color theme
+ *
+ * Authors
+ *  Scheme: EdenEast (https://github.com/EdenEast)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 235, 111, 146, 100 % );
+    blue:                        rgba ( 86, 159, 186, 100 % );
+    lightfg:                     rgba ( 205, 203, 224, 100 % );
+    lightbg:                     rgba ( 45, 42, 69, 100 % );
+    foreground:                  rgba ( 224, 222, 244, 100 % );
+    background:                  rgba ( 35, 33, 54, 100 % );
+    background-color:            rgba ( 35, 33, 54, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

@@ -1,0 +1,37 @@
+/**
+ * Base16 Stranger Theme Upside Down ROFI Color theme
+ *
+ * Authors
+ *  Scheme: Stranger Theme (https://github.com/stranger-theme/stranger-theme)
+ *  Template: Tinted Theming (https://github.com/tinted-theming)
+ */
+
+* {
+    red:                         rgba ( 224, 108, 117, 100 % );
+    blue:                        rgba ( 97, 175, 239, 100 % );
+    lightfg:                     rgba ( 255, 255, 254, 100 % );
+    lightbg:                     rgba ( 33, 37, 43, 100 % );
+    foreground:                  rgba ( 248, 248, 242, 100 % );
+    background:                  rgba ( 13, 17, 23, 100 % );
+    background-color:            rgba ( 13, 17, 23, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}
