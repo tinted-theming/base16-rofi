@@ -2,18 +2,18 @@
  * Base16 Penumbra Dark Contrast Plus ROFI Color theme
  *
  * Authors
- *  Scheme: Zachary Weiss (https://github.com/zacharyweiss)
+ *  Scheme: Neal McKee (https://github.com/nealmckee/penumbra)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 223, 127, 120, 100 % );
-    blue:                        rgba ( 97, 163, 230, 100 % );
-    lightfg:                     rgba ( 255, 247, 237, 100 % );
-    lightbg:                     rgba ( 36, 39, 43, 100 % );
-    foreground:                  rgba ( 206, 206, 206, 100 % );
-    background:                  rgba ( 24, 27, 31, 100 % );
-    background-color:            rgba ( 24, 27, 31, 0 % );
+    red:                         rgba ( 205, 107, 118, 100 % );
+    blue:                        rgba ( 0, 143, 198, 100 % );
+    lightfg:                     rgba ( 186, 184, 180, 100 % );
+    lightbg:                     rgba ( 41, 43, 48, 100 % );
+    foreground:                  rgba ( 153, 153, 153, 100 % );
+    background:                  rgba ( 29, 32, 36, 100 % );
+    background-color:            rgba ( 29, 32, 36, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;

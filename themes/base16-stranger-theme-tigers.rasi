@@ -8,7 +8,7 @@
 
 * {
     red:                         rgba ( 204, 102, 102, 100 % );
-    blue:                        rgba ( 178, 148, 187, 100 % );
+    blue:                        rgba ( 129, 162, 190, 100 % );
     lightfg:                     rgba ( 255, 255, 255, 100 % );
     lightbg:                     rgba ( 44, 50, 44, 100 % );
     foreground:                  rgba ( 245, 245, 245, 100 % );

@@ -2,18 +2,18 @@
  * Base16 Penumbra Dark ROFI Color theme
  *
  * Authors
- *  Scheme: Zachary Weiss (https://github.com/zacharyweiss)
+ *  Scheme: Neal McKee (https://github.com/nealmckee/penumbra)
  *  Template: Tinted Theming (https://github.com/tinted-theming)
  */
 
 * {
-    red:                         rgba ( 202, 115, 108, 100 % );
-    blue:                        rgba ( 87, 148, 208, 100 % );
-    lightfg:                     rgba ( 255, 247, 237, 100 % );
-    lightbg:                     rgba ( 48, 51, 56, 100 % );
-    foreground:                  rgba ( 190, 190, 190, 100 % );
-    background:                  rgba ( 36, 39, 43, 100 % );
-    background-color:            rgba ( 36, 39, 43, 0 % );
+    red:                         rgba ( 186, 97, 106, 100 % );
+    blue:                        rgba ( 0, 129, 180, 100 % );
+    lightfg:                     rgba ( 180, 177, 173, 100 % );
+    lightbg:                     rgba ( 56, 58, 61, 100 % );
+    foreground:                  rgba ( 139, 139, 139, 100 % );
+    background:                  rgba ( 44, 46, 49, 100 % );
+    background-color:            rgba ( 44, 46, 49, 0 % );
     separatorcolor:              @foreground;
     border-color:                @foreground;
     selected-normal-foreground:  @lightbg;
